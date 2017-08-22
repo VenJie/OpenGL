@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "red_rectangle", "OpenGL_demo\OpenGL_demo.vcxproj", "{3C274E28-0C59-48B4-9009-33C10AB2C7CD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "point_line_surface", "point_line_surface\point_line_surface.vcxproj", "{F855D5CC-99E6-4669-B048-F00AE13EAD6C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "circle", "circle\circle.vcxproj", "{28E6470C-3BCC-4DB0-A6C0-2EB1B227FDB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C274E28-0C59-48B4-9009-33C10AB2C7CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C274E28-0C59-48B4-9009-33C10AB2C7CD}.Debug|Win32.Build.0 = Debug|Win32
+		{3C274E28-0C59-48B4-9009-33C10AB2C7CD}.Release|Win32.ActiveCfg = Release|Win32
+		{3C274E28-0C59-48B4-9009-33C10AB2C7CD}.Release|Win32.Build.0 = Release|Win32
+		{F855D5CC-99E6-4669-B048-F00AE13EAD6C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F855D5CC-99E6-4669-B048-F00AE13EAD6C}.Debug|Win32.Build.0 = Debug|Win32
+		{F855D5CC-99E6-4669-B048-F00AE13EAD6C}.Release|Win32.ActiveCfg = Release|Win32
+		{F855D5CC-99E6-4669-B048-F00AE13EAD6C}.Release|Win32.Build.0 = Release|Win32
+		{28E6470C-3BCC-4DB0-A6C0-2EB1B227FDB3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28E6470C-3BCC-4DB0-A6C0-2EB1B227FDB3}.Debug|Win32.Build.0 = Debug|Win32
+		{28E6470C-3BCC-4DB0-A6C0-2EB1B227FDB3}.Release|Win32.ActiveCfg = Release|Win32
+		{28E6470C-3BCC-4DB0-A6C0-2EB1B227FDB3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
