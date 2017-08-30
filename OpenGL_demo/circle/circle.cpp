@@ -108,18 +108,25 @@ void mySpecialKeyboardFunc(int key, int x, int y)
 /*鼠标控制，左键按下表示增加圆圈半径，右键按下表示减小圆圈半径，中间按下表示使用最大的半径*/
 void myMouseFunc(int button, int state, int x, int y)
 {
+	if (state == GLUT_UP)
+	{
+		glutSetCursor(GLUT_CURSOR_CROSSHAIR);
+	}
 	if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
 	{
+		glutSetCursor(GLUT_CURSOR_LEFT_ARROW);
 		if (r < 1.0f)
 			r += 0.1f;
 	}
 	else if (button == GLUT_RIGHT_BUTTON && state == GLUT_DOWN)
 	{
+		glutSetCursor(GLUT_CURSOR_LEFT_ARROW);
 		if (r > 0.2f)
 			r -= 0.1f;
 	}
 	else if (button == GLUT_MIDDLE_BUTTON && state == GLUT_DOWN)
 	{
+		glutSetCursor(GLUT_CURSOR_LEFT_ARROW);
 		r = 1.0f;
 	}
 }
